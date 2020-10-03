@@ -1,0 +1,26 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+clean:
+	rm -f *.pyo
+	dh_clean
+
+build-indep:
+
+build: build-indep
+
+binary-indep:
+	dh_testdir
+	dh_testroot
+	dh_install
+	dh_installdocs
+	dh_pysupport /opt/syncevolution
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep

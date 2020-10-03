@@ -1,0 +1,53 @@
+Source: syncevolution-frontend
+Section: user/office
+Priority: extra
+Maintainer: Ove Kaaven <ovek@arcticnet.no>
+Build-Depends: debhelper (>= 5), python-support
+Standards-Version: 3.8.3
+
+Package: syncevolution-frontend
+Architecture: all
+Depends: syncevolution (>= 1:1.1.1-1), ${python:Depends},
+ python-dbus, python-gconf, python-hildon, python-osso, python-alarm
+Description: TCP/IP SyncML and CalDAV/CardDAV client
+ SyncEvolution allows you to sync your contacts and calendar with SyncML
+ and CalDAV/CardDAV servers on the Internet, such as Funambol, Ovi,
+ Google Contacts, and Google Calendar.
+ .
+ The GUI in this package is custom-made for Maemo 5.
+XB-Maemo-Display-Name: SyncEvolution
+XB-Maemo-Icon-26:
+ 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
+ 74WM8ScMxG0euBWPWgAAAABJRU5ErkJggg==
+XSBC-Bugtracker: http://bugs.meego.com/buglist.cgi?product=SyncEvolution

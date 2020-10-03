@@ -1,0 +1,5 @@
+syncevolution-frontend /usr/bin
+*.py /opt/syncevolution
+icons/48x48/*.png /usr/share/icons/hicolor/48x48/hildon
+icons/scalable/*.png /usr/share/icons/hicolor/scalable/hildon
+syncevolution-frontend.desktop /usr/share/applications/hildon

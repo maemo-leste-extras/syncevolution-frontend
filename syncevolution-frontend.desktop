@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.1
+Type=Application
+Name=SyncEvolution
+Comment=TCP/IP SyncML client
+Exec=/usr/bin/syncevolution-frontend
+Icon=syncevolution
+X-Window-Icon=syncevolution
