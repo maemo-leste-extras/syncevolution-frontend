@@ -1,4 +1,4 @@
-#!/usr/bin/python2.5
+#!/usr/bin/python2
 import subprocess, fcntl, os, signal, shutil
 
 def set_nonblock(f):

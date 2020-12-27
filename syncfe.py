@@ -1,4 +1,4 @@
-#!/usr/bin/python2.5
+#!/usr/bin/python2
 import sys, os, fcntl, gtk, gobject, hildon, osso, dbus, signal, alarm, time
 import pyconic; conic=pyconic # ideally, import conic, but that's broken
 import syncevolution
