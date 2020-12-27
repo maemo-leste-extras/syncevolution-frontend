@@ -1,13 +1,13 @@
 Source: syncevolution-frontend
 Section: user/office
 Priority: extra
-Maintainer: Ove Kaaven <ovek@arcticnet.no>
-Build-Depends: debhelper (>= 5), python-support
+Maintainer: Merlijn Wajer <merlijn@wizzup.org>
+Build-Depends: debhelper (>= 5)
 Standards-Version: 3.8.3
 
 Package: syncevolution-frontend
 Architecture: all
-Depends: syncevolution (>= 1:1.1.1-1), ${python:Depends},
+Depends: syncevolution, ${python:Depends},
  python-dbus, python-gconf, python-hildon, python-osso, python-alarm
 Description: TCP/IP SyncML and CalDAV/CardDAV client
  SyncEvolution allows you to sync your contacts and calendar with SyncML
